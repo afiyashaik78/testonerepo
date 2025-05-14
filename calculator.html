@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-image:url(./group1.jpg) ;
+            width:94em;
+            height:100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:blue
+            
+            
+        }
+        a {
+    text-decoration: none;
+    color: aliceblue;
+    position: relative; /* Added */
+    padding-bottom: 5px; /* Optional for spacing */
+}
+
+a::after {
+    content: "";
+    position: absolute; /* Added */
+    width: 0;
+    height: 2px;
+    background-color: rgb(239, 241, 243);
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out; /* Smoother animation */
+}
+
+a:hover::after {
+    width: 100%;
+}
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        
+
+
+         ul{
+           display: flex;
+           color: white;
+           font-size: 21px;
+           justify-content: end;
+           gap: 15px;
+           position: relative;
+           right: 400px;
+        }
+        .but button{
+            width: 200px;
+            height: 39px;
+            border-radius: 60px;
+            font-size: 15px;
+            color:white;
+            background-color:rgb(48, 98, 160);
+            border-top: 2px;
+            border-bottom: 2px;
+            border-left: 2px;
+            border-right: 2px;
+            position: relative;
+            left: 1150px;
+            bottom: 50px;
+        }
+        h5{
+            color: white;
+            font-size:20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        h2{
+            color: white;
+            font-size: 50px;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        h6{
+            color: white;
+            font-size: 17px;
+            
+        }
+        .likhitha button{
+            color: white;
+            background-color:rgb(48, 98, 160);
+            border-top: 2px;
+            border-bottom: 2px;
+            border-right: 2px;
+            border-left: 2px;
+            width: 180px;
+            height: 48px;
+            border-radius: 3px;
+            position: absolute;
+            top:350px;
+            left: 7px;
+        }
+        .likhitha{
+            position: relative;
+            left: 100px;
+        }
+        h3{
+            color: rgb(49, 49, 96);
+            font-size: 40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        p{
+            font-size:20px;
+            color: rgb(49, 49, 96); ;
+        }
+        .gayathri button{
+            color: white;
+            background-color:rgb(48, 98, 160);
+            border-top: 2px;
+            border-bottom: 2px;
+            border-right: 2px;
+            border-left: 2px;
+            width: 180px;
+            height: 48px;
+            border-radius: 3px;
+        }
+        
+        .card img{
+            width: 50px;
+            height:50px ;
+        }
+        .card{
+            width: 400px;
+            height: 350px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .afiya h1{
+            font-size: 40px;
+
+        }
+        .afiya p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+        }
+        .images img{
+            width: 250px;
+            height: 190px;
+            
+        }
+        .images {
+               display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .afiya button{
+            width: 150px;
+            height: 40px;
+            color: white;
+            background-color:rgb(48, 98, 160);
+            border-top: 2px;
+            border-bottom: 2px;
+            border-right: 2px;
+            border-left: 2px;
+            border-radius: 3px;
+        }
+        
+        .praveen{
+
+            background-color: rgb(219, 214, 208);
+        }
+        .praveen img{
+            width: 70px;
+            height: 65px;
+            border-radius: 65px;
+        }
+        .praveen p{
+            font-size: 20px;
+
+        }
+       
+        .founder{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+
+        
+        }
+        .box{
+            border-radius: 20px;
+            justify-items: center;
+
+        }
+        b{
+            font-size: 30px;
+        }
+        footer{
+            background-color: rgb(41, 35, 129);
+        }
+        .feet{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 75px;
+            color: white;
+
+        }
+        footer p{
+                 color: white;
+                 
+        }
+        button:hover{
+             background-color: white;
+             color:black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="but">
+    <img style="width: 190px; height: 60px; position: relative;left: 90px;top: 80px;" src="./site-logo-white.svg" alt="">
+    <nav>
+        <ul type="none">
+            <li><a href=""  >Home</a></li>
+            <li> <a href=" ">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <button>REQUEST  QUOTE</button>
+    </div>
+    <div class="likhitha">
+ <h5>Fastest And Most Lightweight WP Theme</h5>
+ <h2>Create Amazing <br>Business Websites</h2>
+ <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et <br> justo. Praesent mattis commodo augue. Morbi fringilla congue libero,<br> ac malesuada vulputate pharetra.</h6>
+ <button>GET STARTED</button>
+ </div>
+    </header>
+    <main>
+        <section class="gayathri" align="center">
+            <h3>How can we help you?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et <br> justo. Praesent mattis commodo augue.​</p>
+            <button>BOOK APPOINTMENT</button>
+        </section><br><br><br><br><br>
+        <section>
+            <div class="container">
+                <div class="card">
+                    <img src="./card1.jpg" alt="">
+                    <h4>Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+                <div class="card">
+                    <img src="./card2.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+                <div class="card">
+                    <img src="./card3.jpg" alt="">
+                    <h4>marketing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+                <div class="card">
+                    <img src="./card4.jpg" alt="">
+                    <h4>social media</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+                <div class="card">
+                    <img src="./card5.jpg" alt="">
+                    <h4>e-commerce</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+                <div class="card">
+                    <img src="./card6.jpg" alt="">
+                    <h4>help&support</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="afiya" align="center">
+                <h1>Portfolio</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et <br> justo. Praesent mattis commodo augue.​
+                </p>
+                <div class="images">
+                    <img src="https://websitedemos.net/agency-02/wp-content/uploads/sites/30/2020/06/portfolio1-400x400.jpg" alt="">
+                    <img src="https://websitedemos.net/agency-02/wp-content/uploads/sites/30/2020/06/portfolio2-400x400.jpg " alt="">
+                    <img src="https://websitedemos.net/agency-02/wp-content/uploads/sites/30/2020/06/portfolio3-400x400.jpg" alt="">
+                    <img src="https://websitedemos.net/agency-02/wp-content/uploads/sites/30/2020/06/portfolio4-1-400x400.jpg"alt="">
+                </div><br><br><br>
+                <button>EXPLORE MORE</button>
+            </div><br><br><br>
+            <div class="words " align="center">
+                <h1>Our Customers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et <br> justo. Praesent mattis commodo augue.
+                </p>
+            </div><br>
+        </section>
+        <section  class=" praveen" align="center">
+            <br><br>
+         <h1><q>Amazing Designs and Quality Work!</q></h1>
+         <p>Nam at congue diam. Etiam erat lectus, finibus eget commodo quis, tincidunt eget leo. <br> Nullam quis vulputate orci, ac  accumsan quam. Morbi fringilla congue libero, ac <br> malesuada vulputate pharetra.</p>
+         <img src="./josh.jpg" alt="">
+         <p>john doe <br>
+         CEO, Acme Inc.</p><br><br>
+        </section>
+        <section  class="blocks" align="center">
+            <h1>Meet Our Leadership</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et <br> justo. Praesent mattis commodo augue.</p>
+        </section>
+        <section class="founder" align="center">
+            <div class="box">
+                <img src="./team-1.jpg" alt=""><br>
+                <b>Joanne Williams</b>
+                <p>Founder</p>
+            </div>
+            <div class="box">
+                <img src="./team-2.jpg" alt=""><br>
+                <b>Fred Buster</b>
+                <p>Director OPS</p>
+            </div>
+            <div class="box">
+                <img src="./team-3.jpg" alt=""><br>
+                <b>Lisa Hoffman</b>
+                <p>Director HR</p>
+            </div>
+        </section>
+
+    </main><br><br>
+    <footer>
+        <div  class="feet">
+               <br><br><br><br><br><br><br>
+                 <div class="contant">
+                 <h1>Company</h1>
+                    Home<br>
+                    About<br>
+                    Services<br>
+                    Contact</p>
+                </div>
+            <div class="contant">
+            <h1>Business</h1>
+            Project<br>
+                Our Team<br>
+                Facts<br>
+                Customers
+             </div>
+                 <div class="contant">
+                <h1>Get In Touch</h1>
+                 Rt. 66, Downtown, Washington, DC<br>
+                 info@example.com<br>
+                 1-800-1234-567<br>
+                 +001 987-654-3210<br>
+                </div>
+        </div>
+        <hr><br>
+        <p align="center">Copyright © 2025 Digital Agency | Powered by Digital Agency</p>
+        <br><br><br>
+    </footer>
+</body>
+</html>
